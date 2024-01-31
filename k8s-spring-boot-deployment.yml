@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nodeapp
-          image: faizulkarimsunnygit/node-app:latest
+          image: sunnyboysb/node-app:latest
           ports:
             - containerPort: 3000
           env:
