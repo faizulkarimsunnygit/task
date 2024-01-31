@@ -16,10 +16,10 @@ spec:
         - name: nodeapp
           image: faizulkarimsunnygit/node-app:latest
           ports:
-            - containerPort: 4000
+            - containerPort: 3000
           env:
             - name: PORT
-              value: "4000"
+              value: "3000"
 ---
 apiVersion: v1
 kind: Service
